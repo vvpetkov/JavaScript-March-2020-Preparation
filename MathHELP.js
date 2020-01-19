@@ -1,5 +1,5 @@
-Facebook (JavaScript Mar'20 - Preparation)
-19.01.2020
+//Facebook (JavaScript Mar'20 - Preparation)
+//19.01.2020
 
 let roundedA = Math.round(5.1);       // Закръгля числото до цяло математически
 let roundedB = Math.round(5.6);       // Закръгля числото до цяло математически
