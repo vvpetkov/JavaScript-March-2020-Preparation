@@ -10,7 +10,7 @@ node.js
 DataTypesAndVariables  
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
 
-Demos - Examples you can run on your computer and test them out. 
+Demos - Examples you can run on your computer and test them out.  
 repeat- file.js is my repetitions for better comfort in codding  
   
 Live Demos - Live demos from the session  
