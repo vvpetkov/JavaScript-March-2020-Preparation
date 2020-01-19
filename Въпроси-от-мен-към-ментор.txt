@@ -1,1 +1,13 @@
+05.boolean-type.js
 
+// parsing to boolean
+
+let zeroToBoolean = Boolean(0);
+let twoToBoolean = Boolean(2);
+let emptyStringToBoolean = Boolean('');
+
+console.log('zeroToBoolean: ', zeroToBoolean)
+console.log('twoToBoolean: ', twoToBoolean);
+console.log('emptyStringToBoolean: ', emptyStringToBoolean);
+
+Не схващам
