@@ -1,13 +1,17 @@
 # JavaScript-Mart-2020-Preparation
 #### Programming Fundamentals Course
 
-Lecture 01 (11.01.2020)
-VScode
-node.js
+01 Lecture  (11.01.2020)  
+VScode  
+node.js  
 
 
-Lecture 02 (18.01.2020)
-DataTypesAndVariables
+02 Lecture  (18.01.2020)  
+DataTypesAndVariables  
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
 
-## Demos
-### Examples
+Demos - Examples you can run on your computer and test them out.  
+repeat- file.js is my repetitions for better comfort in codding  
+  
+Live Demos - Live demos from the session  
+

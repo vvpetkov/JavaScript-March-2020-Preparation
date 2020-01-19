@@ -1,0 +1,28 @@
+01
+
+05.boolean-type.js
+
+// parsing to boolean
+
+let zeroToBoolean = Boolean(0);
+let twoToBoolean = Boolean(2);
+let emptyStringToBoolean = Boolean('');
+
+console.log('zeroToBoolean: ', zeroToBoolean)
+console.log('twoToBoolean: ', twoToBoolean);
+console.log('emptyStringToBoolean: ', emptyStringToBoolean);
+
+Не схващам
+
+02
+
+// When you divide two numbers you receive a real number
+let num = 3 / 2.5; // 0.5
+console.log(num);
+
+// If you want only the remainder after the division
+let remainder = 3 % 2.0; // 0.5
+console.log(remainder);
+
+//0.5 даден резултат Не схващам
+
