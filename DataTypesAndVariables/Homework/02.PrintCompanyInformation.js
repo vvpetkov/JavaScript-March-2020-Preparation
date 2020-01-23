@@ -2,7 +2,7 @@ let input = [
     'Telerik Academy',
     '31 Al. Malinov, Sofia',
     '+359 888 55 55 555',
-    '(No Fax)',
+    '',
     'http://telerikacademy.com/',
     'Martin',
     'Veshev',

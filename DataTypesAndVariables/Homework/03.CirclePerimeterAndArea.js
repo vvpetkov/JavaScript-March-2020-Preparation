@@ -1,5 +1,5 @@
 let input =[
-    '3.5',
+    '5',
 ];
 
 let print = this.print || console.log;
