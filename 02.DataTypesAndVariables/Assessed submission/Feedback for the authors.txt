@@ -1,0 +1,468 @@
+﻿01
+Hi this is my feedback
+
+
+01
+sum-of-three-numbers.js
+
+
+I prefer to have a number in file name like:
+ 01.sum-of-three-numbers.js
+Homework Description in site  have a number of the problem followed by description: Problem 1. Sum of 3 Numbers
+
+
+I do not understand some code before input ?
+I do not understand why you parse 2 times string input to number?
+first with Number() and inside +gets()
+let secondNumber = Number(+gets());
+you can do it with only one parse: 
+let firstNumber = Number(gets());
+
+
+02
+print-company-information.js 
+
+
+I do not understand some code before input ?
+
+
+for fax number we do not have input 
+so we need to make Solution for this problem, not to hard-code it to the input
+
+
+03
+circle-perimeter-and-area.js
+
+
+I do not understand some code before input ?
+
+
+After command Format Document: one small formatting
+
+
+04
+number-comparer.js
+
+
+I do not understand some code before input ?
+I do not understand why you parse 2 times string input to number?
+first with Number() and inside +gets()
+let secondNumber = Number(+gets());
+you can do it with only one parse: 
+let firstNumber = Number(gets());
+
+
+05 
+quadratic-equation.js
+
+
+I do not understand some code before input ?
+
+
+It the results I expected to see : x1=-3; x2=0.5, but you give me: First root: x = -3 and Second root: x = 0.5 
+
+
+in judge this will be wrong answer 
+I do not understand why you parse 2 times string input to number?
+first with Number() and inside +gets()
+let b = Number(+gets()); 
+
+
+06
+sum-of-five-numbers.js
+
+
+I do not understand some code before input ?
+I do not understand why you parse 2 times string input to number?
+first with Number() and inside +gets()
+let secondNumber = Number(+gets());
+you can do it with only one parse: 
+let firstNumber = Number(gets());
+
+
+07
+sum-of-greatest&smallest.js
+
+
+I do not understand some code before input ?
+I do not understand why you parse 2 times string input to number?
+first with Number() and inside +gets()
+let secondNumber = Number(+gets());
+you can do it with only one parse: 
+let firstNumber = Number(gets());
+
+
+
+
+
+
+See you soon and have nice day 
+Regards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+02
+Hi this is my feedback
+
+
+
+
+homework 1.js 
+
+
+The program works, but:
+You need to take value from the input array ( let input = []; ) and use gets();
+input need to be string
+if you working with numbers:
+you need to parse to numbers:
+ num1 = Number(num1);
+
+
+Instead you initialize the input in the Solution 
+
+
+homework2.js
+
+
+After command Format Document: 
+one small formatting in the input
+
+
+for fax number we do not have input 
+so we need to make Solution for this problem, not to hard-code it to the input
+
+
+homework3.js
+
+
+After command Format Document: small formatting
+
+
+The program works, but:
+You need to take value from the input array ( let input = []; ) and use gets();
+input need to be string
+if you working with numbers:
+you need to parse to numbers:
+ num1 = Number(num1);
+
+
+Instead you initialize the input in the Solution
+
+
+homework4.js
+
+
+After command Format Document: small formatting
+
+
+The program works, but:
+Very short solution not descriptive one !
+I like to put solution in variable with descriptive name and print it.
+
+
+homework5.js
+
+
+After command Format Document: one small formatting
+
+
+The program works, but:
+
+
+You need to take value from the input array ( let input = []; ) and use gets();
+input need to be string
+if you working with numbers:
+you need to parse to numbers:
+ num1 = Number(num1);
+
+
+Instead you initialize the input in the Solution
+
+
+It the results I expected to see : x1=4; x2=4, but you give only 4, 4 
+
+
+homework6.js
+
+
+After command Format Document: 
+one small formatting in the input
+
+
+I do not understand the solution, the result is OK 
+You use more advance methods for solving the problem 
+look like very elegant solution, nice work
+
+
+
+
+homework7.js
+
+
+I do not understand the solution, the result is OK 
+You use more advance methods for solving the problem 
+look like very elegant solution, nice work
+
+
+
+
+You need to take value from the input array ( let input = []; ) and use gets();
+input need to be string
+if you working with numbers:
+you need to parse to numbers:
+ num1 = Number(num1);
+
+
+Instead you initialize the input in the Solution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+03.Feedback for the author-
+
+
+Hi this is my feedback:
+
+
+
+
+01
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+02
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+03
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+
+
+04
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+
+
+05
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+
+
+06
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+07
+You have no input!
+That will give you WA!
+In the first line you must put input 
+
+
+The program is not give you max and MIN sum 
+That will give you WA!
+
+
+Resume
+Only one program is wrong, but all programs will not pass, because of input
+
+
+
+
+
+
+
+
+Have a nice day
+Regards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+04 Homework 1
+
+
+Hi this is my feedback:
+01
+Need to be formatted
+
+
+02
+Need to be formatted
+for fax number we do not have input 
+so we need to make Solution for this problem, not to hard-code it to the input
+
+
+03
+Need to be formatted
+Result have some strings that is not in the OUTPUT
+This will return WA in judge
+
+
+04
+Need to be formatted
+Result have some strings that is not in the OUTPUT
+This will return WA in judge
+Try with Math.max
+
+
+05
+Need to be formatted
+
+
+06
+Need to be formatted
+
+
+07
+Need to be formatted
+
+
+Regards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+05 H
+
+
+Hi this is my feedback:
+01
+Need to be formatted
+02
+Need to be formatted
+for fax number we do not have input 
+so we need to make Solution for this problem, not to hard-code it to the input
+03
+Need to be formatted
+Wrong answer 
+Wrong input
+04
+n/a
+05
+n/a
+06
+Need to be formatted
+07
+n/a
+
+
+
+
+Regards

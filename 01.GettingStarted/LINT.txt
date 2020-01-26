@@ -1,0 +1,20 @@
+
+Как да си настроиш LINT
+
+npm install semistandard -g
+
+
+extensions:
+
+standardJS
+
+ctrl shift P 
+
+>settings
+
+Preference open user settings
+extensions
+JavaScript Standarts
+standart semistandard 
+пуснато
+
