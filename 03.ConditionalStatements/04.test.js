@@ -4,3 +4,4 @@ let c = -1
 let sum = a * b * c
 
 console.log(sum)
+console.log(a, b, c);
