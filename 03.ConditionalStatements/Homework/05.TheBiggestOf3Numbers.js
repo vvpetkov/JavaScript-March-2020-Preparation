@@ -25,5 +25,6 @@ if (a >= b && b >= c) {
 } else if (a < b && b < c) {
   biggest = c;
 }
+
 print(biggest);
 // end solution:

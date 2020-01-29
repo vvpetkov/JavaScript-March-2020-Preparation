@@ -2,7 +2,7 @@
 
 // start solution:
 
-const input = ['5', '10', '100'];
+const input = ['99', '98', '100'];
 
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
@@ -18,7 +18,7 @@ if (a >= b && b >= c) {
   if (a >= c) {
     print(a, c, b);
   } else {
-    print(c, a, b); // ?
+    print(c, a, b); // !
   }
 } else if (a <= b && b >= c) {
   if (a >= c) {
@@ -30,4 +30,3 @@ if (a >= b && b >= c) {
   print(c, b, a);
 }
 // end solution:
-// not Solved!
