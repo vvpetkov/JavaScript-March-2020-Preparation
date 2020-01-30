@@ -1,20 +1,18 @@
-// 02.BonusScore.js
-const input = ['10'];
-
+const input = ['9'];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
 const score = +gets();
 
-let result = 0;
 if (score >= 1 && score <= 3) {
-  result = score * 10;
+    const result = score * 10;
+    print(result);
 } else if (score >= 4 && score <= 6) {
-  result = score * 100;
+    const result = score * 100;
+    print(result);
 } else if (score >= 7 && score <= 9) {
-  result = score * 1000;
+    const result = score * 1000;
+    print(result);
 } else {
-  result = 'invalid score';
+    print('invalid score');
 }
-
-print(result);
