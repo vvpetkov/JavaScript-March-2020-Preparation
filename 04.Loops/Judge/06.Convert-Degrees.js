@@ -4,12 +4,14 @@
 // https://gomakethings.com/es6-foreach-loops-with-vanilla-javascript/
 
 
-const input = ['0', '15', '30'];
+const input = ['0 15 30'];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
 // explanation forEach() loops in 06.notes.js
 
-input.forEach(function (input, index) {
-  print(input * (9 / 5) + 32);
+let degreesC = gets().split(' ').map(Number);
+
+degreesC.forEach(function (degreesC, index) {
+  print(degreesC * (9 / 5) + 32);
 });
