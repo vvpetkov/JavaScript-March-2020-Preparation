@@ -1,4 +1,5 @@
 // Prep/Loops/Repetition/
+// video from 45 min
 // 07.Print-Deck-of-Cards.js
 
 const input = ['K'];
@@ -13,3 +14,4 @@ do {
   let face = deck[index];
   print(`${face} of spades, ${face} of clubs, ${face} of hearts, ${face} of diamonds `);
 } while (deck[index++] !== card);
+ 
