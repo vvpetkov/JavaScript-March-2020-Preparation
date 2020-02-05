@@ -262,3 +262,189 @@ Copy
 ## Clarifications
 
 No clarifications have been made at this time.
+
+# 06.Convert-Degrees.js
+
+
+
+## Convert Degrees
+
+**Tags**
+
+All, Loops
+
+**Difficulty**
+
+Preparation
+
+
+
+Allowed languages
+
+C#, java, JavaScript
+
+
+
+You need to provide conversion of the temperature given in Celsius to their Fahrenheit representation.
+
+- [Explanation](https://www.rapidtables.com/convert/temperature/how-celsius-to-fahrenheit.html)
+
+#### Hint
+
+- Search how you could split the list of values and then you can iterate over them.
+  - JavaScript
+    - [forEach](https://gomakethings.com/es6-foreach-loops-with-vanilla-javascript/)
+  - Java
+    - [For-each loop](https://www.geeksforgeeks.org/for-each-loop-in-java/)
+  - C#
+    - [For-each loop](https://www.programiz.com/csharp-programming/foreach-loop)
+
+#### Input
+
+- On the first line, you will receive a list of values separated by a single space.
+
+#### Output
+
+- On each line in the output print the converted temperature. Print a whole number rounded to the nearest integer (Math rules apply) and without digits after the decimal point.
+
+#### Input
+
+Copy
+
+```
+0 15 30
+```
+
+#### Output
+
+Copy
+
+```
+32
+59
+86
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
+
+# 07.Print-Deck-of-Cards.js
+
+## Print Deck of Cards
+
+**Tags**
+
+All, Loops
+
+**Difficulty**
+
+Preparation
+
+
+
+Allowed languages
+
+C#, java, JavaScript
+
+
+
+Write a program that reads a card sign(as a **string**) from the console and generates and prints all possible cards from a [standard deck of 52 cards](https://en.wikipedia.org/wiki/Standard_52-card_deck) up to the card with the given sign(without the jokers). The cards should be printed using the classical notation (like 5 of spades, A of hearts, 9 of clubs; and K of diamonds).
+
+- The card faces should start from **2 to A(10 is 10)**.
+- Print each card face in its four possible suits: clubs, diamonds, hearts and spades.
+
+The order of cards is '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'.
+
+#### Input
+
+- On the only line, you will receive the sign of the card to which, including, you should print the cards in the deck.
+
+#### Output
+
+- The output should follow the format bellow
+
+#### Input
+
+Copy
+
+```
+5
+```
+
+#### Output
+
+Copy
+
+```
+2 of spades, 2 of clubs, 2 of hearts, 2 of diamonds
+3 of spades, 3 of clubs, 3 of hearts, 3 of diamonds
+4 of spades, 4 of clubs, 4 of hearts, 4 of diamonds
+5 of spades, 5 of clubs, 5 of hearts, 5 of diamonds
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
+
+# 08.Calculate-Complex-Sum.js
+
+## Calculate Complex Sum
+
+**Tags**
+
+All, Loops
+
+**Difficulty**
+
+Preparation
+
+
+
+Allowed languages
+
+C#, java, JavaScript
+
+
+
+Write a program that, for a given two numbers NN and xx, calculates the sum below.
+
+
+
+Use only one loop. Print the result with 5 digits after the decimal point.
+
+#### Input
+
+- On the first line you will receive one number - NN
+- On the second line you will receive another number - xx
+
+#### Output
+
+- Output only one number - the sum of the sequence for the given NN and xx
+
+#### Input
+
+Copy
+
+```
+3
+2
+```
+
+#### Output
+
+Copy
+
+```
+2.75000
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
