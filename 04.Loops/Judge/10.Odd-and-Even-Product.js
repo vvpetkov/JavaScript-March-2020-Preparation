@@ -1,6 +1,7 @@
-// Prep/Loops/Homeworks
-// 08.Odd-and-Even-Product.js
-// 1:10 video
+// Prep/Loops/Judge/
+// Repetition 1:10 video
+// 10.Odd-and-Even-Product.js
+
 
 const input = ["4", "3", "2", "5", "2"];
 const print = this.print || console.log;
@@ -19,10 +20,8 @@ for (let i = 1; i <= n; i++) {
 }
 
 if (oddProduct === evenProduct) {
-  print('yes');
-  print(`product=${oddProduct}`);
+  print(`yes${oddProduct}`);
 } else {
-  print('no');
-  print(`odd_product=${oddProduct}`);
-  print(`even_product=${evenProduct}`);
+  //print(`no ODD ${oddProduct} EVEN ${evenProduct}`);
+  print(`no ${oddProduct} ${evenProduct}`);
 }

@@ -10,7 +10,7 @@ const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
 // const copy = [];
 // for (let i = 0; i < input.length; i++) {
-//   copy.push(input[i]);
+//   copy.push(input[i]);  // adding every index from input
 // }
 // print(copy); // ["0", "15", "30"]
 
