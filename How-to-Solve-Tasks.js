@@ -41,6 +41,7 @@ for (let i = 0; i < n; i++) {
 
 print(maxValue);
 
+// -------------------------------
 
 const input = ['6', '9', '11', '3', '2', '1', '8'];
 const print = this.print || console.log;

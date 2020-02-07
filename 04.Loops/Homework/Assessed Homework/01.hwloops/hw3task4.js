@@ -1,4 +1,4 @@
-let input = ['A'];
+let input = ['K'];
 let gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 let print = this.print || console.log;
 
