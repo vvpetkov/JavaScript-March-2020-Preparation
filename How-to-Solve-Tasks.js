@@ -1,3 +1,8 @@
+// Prep/Loops/Homeworks
+// 08.Odd-and-Even-Product.js
+// 1:10 video
+
+
 const input = ['123'];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
