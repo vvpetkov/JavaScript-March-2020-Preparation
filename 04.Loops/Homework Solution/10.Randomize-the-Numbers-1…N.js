@@ -1,14 +1,23 @@
 // // Prep/Loops/Homeworks
 // 10.Randomize-the-Numbers-1…N.js
 
-const input = ['3'];
+const input = ['10'];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
 const n = +gets();
-let currentNum = 0;
 
-for (let i = 0; i <= n; i++) {
-  currentNum += i;
+let numbers = [];
+for (let i = 1; i <= n; i++) {
+  numbers.push(i)
 }
-print(currentNum);
+
+let min =0;
+let max = numbers.length;
+
+for (let index = 0; index < numbers.length; index++) {
+  let randomIndex = Math.floor(Math.random() * (max - min )) + min
+
+  print(randomIndex);
+}
+  print(numbers.join(' '));
