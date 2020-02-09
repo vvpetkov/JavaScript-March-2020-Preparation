@@ -1,4 +1,4 @@
-# JavaScript-Mart-2020-Preparation
+# JavaScript-March-2020-Preparation
 #### Programming Fundamentals Course
 
 01 Lecture  (11.01.2020)  
