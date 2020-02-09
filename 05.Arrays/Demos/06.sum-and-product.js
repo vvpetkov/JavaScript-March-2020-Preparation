@@ -1,4 +1,4 @@
-let numbers = [1, 2 -4, 3, 7, 0];
+let numbers = [1, 2, -4, 3, 7, 2];
 
 let sum = 0;
 let product = 1;
