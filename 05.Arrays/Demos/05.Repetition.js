@@ -1,8 +1,3 @@
-# Arrays
-
-
-
-``` javascript
 // Loops/Demos
 // 05.Repetition.js
 
@@ -18,12 +13,5 @@ for (let i = 0; i < length / 2; i++) {
   }
 }
 console.log(`The array is symmetric: ${isSymmetric}`);
-```
-
-```javascript
--->   array[i]                 // 2,4,6  // index 0,1,2
-<--   array[length- i - 1]     // 2,3,6, // index 5,4,3
-```
-
 
 
