@@ -1,4 +1,14 @@
-const input = ['telerik', 'teleric'];
+// Problem 2. Compare Character Arrays Lexicographically
+// Write a program that compares two arrays of single-letter strings lexicographically (letter by letter).
+// Research how to convert string to an array of single-letter strings.
+// Input:
+// On the first line you will receive the first array as string
+// On the second line you will receive the second array as string
+// Output:
+// Print First if the first array is lexicographically smaller
+// Print Second if the second array is lexicographically smaller
+// Print Equal if the arrays are equal
+const input = ['teluc', 'telerik'];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 const string1 = gets();
@@ -21,7 +31,7 @@ if (string1.length === string2.length) { // Правим масив от вся�
     if (string1ToArray[i] <= string2ToArray[i]) {
       isEqual = 'First';
     } else {
-      isEqual = 'Second';
+      isEqual = 'Second'; break;
     }
   }
 } else if (string1.length > string2.length) {
@@ -29,17 +39,8 @@ if (string1.length === string2.length) { // Правим масив от вся�
     if (string2ToArray[i] <= string1ToArray[i]) {
       isEqual = 'Second';
     } else {
-      isEqual = 'First';
+      isEqual = 'First'; break;
     }
   }
 }
 print(isEqual);
-print(string1ToArray[6]);
-print(string2ToArray[6]);
-print(string1ToArray[6] > string2ToArray[6]);
-print(string1ToArray[6] < string2ToArray[6]);
-
-let test1 = 'a'
-let test2 = 'b'
-print(test1 > test2);
-print(test1 < test2);
