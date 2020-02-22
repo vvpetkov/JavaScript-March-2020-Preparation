@@ -140,3 +140,67 @@ Copy
 
 No clarifications have been made at this time.
 
+#  04
+
+## Rotate List
+
+------
+
+
+
+Write a program that rotates a list several times (the first element becomes last).
+
+- `list = 1,2,3,4,5` and `N = 2` -> `result = 3,4,5,1,2`
+
+Note that N could be larger than the length of the list.
+
+- `list = 1,2,3,4,5` and `N = 6` -> `result = 2,3,4,5,1`
+
+#### Input
+
+- On the first line you will receive the list of numbers.
+- On the second line you will receive `N`
+
+#### Output
+
+- On the only line of output, print the numbers separated by a space.
+
+#### Input
+
+Copy
+
+```
+5,3,2,1
+2
+```
+
+#### Output
+
+Copy
+
+```
+2,1,5,3
+```
+
+#### Input
+
+Copy
+
+```
+2,1,3,4
+5
+```
+
+#### Output
+
+Copy
+
+```
+1,3,4,2
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
