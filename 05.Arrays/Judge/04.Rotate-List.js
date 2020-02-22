@@ -11,7 +11,8 @@ const list = gets().split(',');
 let n = +gets();
 
 while (n > 0) {
-  list.push(list.shift()); // не го разбирам
+  list.push(list.shift());
+  // ахаа: пушваш елемент = на шифнат елемент
   n--;
 }
 
