@@ -256,3 +256,133 @@ false
 ## Clarifications
 
 No clarifications have been made at this time.
+
+# 06
+
+## Remove Duplicates
+
+------
+
+
+
+Write a program that removes all duplicates from a list of elements.
+
+- `1,2,2,2,4,7` -> `1,2,4,7`.
+
+Maintain the relative order of the remaining items.
+
+#### Input
+
+- On the only line of input, you will receive the elements, separated by a comma.
+
+#### Output
+
+- Display the list with the duplicates removed, separated by a comma.
+
+#### Constraints
+
+- 1 <= list.length <= 20
+
+#### Input
+
+Copy
+
+```
+1,2,2,2,2,18,3,12
+```
+
+#### Output
+
+Copy
+
+```
+1,2,18,3,12
+```
+
+#### Input
+
+Copy
+
+```
+c,c,a,b,a,a,b,c
+```
+
+#### Output
+
+Copy
+
+```
+c,a,b
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
+
+
+
+# 08
+
+## Below and Above Average
+
+------
+
+Write a program that calculates the average of a list of numbers. Display the average, all the numbers below the average, and all the numbers above the average. Maintain the relative order of numbers.
+
+#### Input
+
+- On the only line of input, you will receive the numbers, separated by a comma.
+
+#### Output
+
+- On the first line, print the average, with two digits after the decimal separator.
+- On the second line, print all the numbers bellow the average
+- On the third line, print all the numbers above the average
+
+#### Constraints
+
+- 1 <= list.length <= 20
+
+#### Input
+
+Copy
+
+```
+3,-12,0,0,13,5,1,0,-2
+```
+
+#### Output
+
+Copy
+
+```
+avg: 0.89
+below: -12,0,0,0,-2
+above: 3,13,5,1
+```
+
+#### Input
+
+Copy
+
+```
+0,1,-1
+```
+
+#### Output
+
+Copy
+
+```
+avg: 0.00
+below: -1
+above: 1
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
