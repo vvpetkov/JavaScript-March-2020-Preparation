@@ -1,4 +1,4 @@
-// Arrays (Judge) Is a List Sorted? (Vld)
+// Arrays (Judge)(05) Is a List Sorted? (Vld)
 // 05.Is-a-List-Sorted.js
 
 const input = ['3', '1,2,3,4,5', '1,2,8,9,9', '1,2,2,3,2'];
