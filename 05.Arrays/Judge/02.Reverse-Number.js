@@ -1,7 +1,7 @@
 // Arrays (Judge) Reverse Number (Vld)
 // 02.Reverse-Number.js
 
-const input = ['123.45']; // запетайка + спейс
+const input = ['123.45']; 
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 

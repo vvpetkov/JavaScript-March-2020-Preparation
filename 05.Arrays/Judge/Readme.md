@@ -90,3 +90,53 @@ Write a method that reverses the digits of a given decimal number.
 ## Clarifications
 
 No clarifications have been made at this time.
+
+
+
+# 03
+
+## Combine Lists
+
+------
+
+
+
+Write a program that reads two lists of numbers and combines them by alternatingly taking elements:
+
+- combine `1,2,3` and `7,8,9` -> `1,7,2,8,3,9`
+- you can assume that the input lists will have the same length.
+
+Print the resulting combined list to the output, separating elements with a comma.
+
+#### Input
+
+- On the first line you will receive the first list.
+- On the second line -> 2nd list.
+
+#### Output
+
+- On the only line of output, print all the numbers in format `n1,n2,n3,..n`
+
+#### Input
+
+Copy
+
+```
+2,3,1
+5,2,3
+```
+
+#### Output
+
+Copy
+
+```
+2,5,3,2,1,3
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.
+
