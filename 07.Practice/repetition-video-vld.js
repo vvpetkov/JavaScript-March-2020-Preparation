@@ -16,14 +16,31 @@ while (true) {
 }
 
 
-let dirtyDishes = 5;
+let dirtyDishes = 8;
 let cleanDishes = 0;
+let num = 5;
 
 while (dirtyDishes > 0) {
   dirtyDishes--;
   cleanDishes++;
 
+  if (cleanDishes === num) {
+    console.log('soak after 4');
+    //continue;
+    break;
+  }
+
   console.log(`I have cleaned ${cleanDishes} and ${dirtyDishes} are left `)
 }
 
-console.log('Job ended!')
+console.log('Job ended!');
+
+let numbers = '';
+const n = 3;
+let i = 1;
+
+while (i <= n) {
+  numbers += `${i} haha `;
+  i++
+}
+console.log(numbers);
