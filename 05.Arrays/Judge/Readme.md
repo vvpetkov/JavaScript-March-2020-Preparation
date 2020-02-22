@@ -4,33 +4,58 @@
 
 
 
-
-
-## Numbers From 1 to N
-
-------
+## Sort Numbers
 
 
 
-Write a program that enters from the console a positive integer n and prints all the numbers from **1** to **N** inclusive, on a single line, separated by a whitespace.
+Write a program that reads a list of numbers separated by a comma and space.
+
+Arrange the numbers in descending order.
+
+Output all numbers on a single line, separated by a comma and a space.
 
 #### Input
 
-- The input will consist of a single line - the number **N**
+- On the only line you will receive all the numbers to be sorted.
 
 #### Output
 
-- The output should consist of a single line - the numbers from **1** to **N**, separated by a whitespace
+- On the only line of output, print all the numbers sorted in format `n1, n2, n3, .. n`
 
-#### Constraints
+#### Input
 
-- **N** will be a valid positive 32-bit integers
-- Time limit: **0.1s**
-- Memory limit: **16MB**
+Copy
 
-#### Sample tests
+```
+2, 3, 1, 5, 6
+```
 
-| Input | Output    |
-| ----- | --------- |
-| 5     | 1 2 3 4 5 |
-| 1     | 1         |
+#### Output
+
+Copy
+
+```
+6, 5, 3, 2, 1
+```
+
+#### Input
+
+Copy
+
+```
+1, 2, 3
+```
+
+#### Output
+
+Copy
+
+```
+3, 2, 1
+```
+
+------
+
+## Clarifications
+
+No clarifications have been made at this time.

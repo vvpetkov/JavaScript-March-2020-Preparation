@@ -1,4 +1,4 @@
-// Arrays (Judge) Not Divisible Number (Vld)
+// Loops (Judge) Not Divisible Number (Vld)
 // Not-Divisible-Number.js
 
 const input = ['10'];
