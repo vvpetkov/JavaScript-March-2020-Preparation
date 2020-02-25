@@ -6,4 +6,4 @@ console.log(array1);
 let greeting2 = 'h,e,l,l,o';
 let array2 = greeting2.split(',');
 
-console.log(array2);
+console.log(array2);  
