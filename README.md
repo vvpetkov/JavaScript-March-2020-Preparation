@@ -1,5 +1,6 @@
 # JavaScript-March-2020-Preparation
 #### Programming Fundamentals Course
+# My exam was perfect for me : 300/300 with 10 % time 
 
 01 Lecture  (11.01.2020)  
 VScode + NODE.js  
