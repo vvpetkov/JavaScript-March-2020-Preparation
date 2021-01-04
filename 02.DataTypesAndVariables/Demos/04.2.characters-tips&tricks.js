@@ -2,6 +2,8 @@ let divider = '-';
 
 let line = divider.repeat(20);
 
+console.log(line);
+
 // https://www.asciitable.com/
 // The ASCII table represents each symbol in the computer
 // It matches a number to a character nd could do it both ways

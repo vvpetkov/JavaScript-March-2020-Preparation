@@ -2,7 +2,7 @@ let input = [
   "Telerik Academy",
   "31 Al. Malinov, Sofia",
   "+359 888 55 55 555",
-  "",
+  " ", // Празен стринг, спейс
   "http://telerikacademy.com/",
   "Martin",
   "Veshev",
@@ -23,7 +23,7 @@ let managerLastName = gets();
 let managerAge = gets();
 let managerPhone = gets();
 
-faxNumber 
+faxNumber = faxNumber === ' ' ? ('no fax') : faxNumber; // Update 2021
 
 console.log(companyName);
 console.log(`Address: ${companyAddress}`);
