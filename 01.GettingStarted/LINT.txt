@@ -14,7 +14,7 @@ ctrl shift P
 
 Preference open user settings
 extensions
-JavaScript Standarts
-standart semistandard 
+JavaScript Standards
+standard engine:  semistandard 
 пуснато
 
