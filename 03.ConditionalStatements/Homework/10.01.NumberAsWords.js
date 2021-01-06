@@ -2,11 +2,11 @@
 // All credits to AI
 
 // number as words
-// Hundreds/tens/digits (100-999)
-// Tens/digits (10-99)
+// Hundreds (100-999)
+// Tens(10-99)
 // Digits (1-9)
 
-const input = ['123'];
+const input = ['999'];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
