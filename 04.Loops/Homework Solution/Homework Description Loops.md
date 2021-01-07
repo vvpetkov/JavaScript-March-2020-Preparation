@@ -122,9 +122,21 @@ Write a program that calculates `n! / k!` for given `n` and `k` (1 < k < n < 100
 
 ------
 
+### Video Problem 7. Calculate N! / (K! * (N_K)!)
 
+In combinatorics the number of ways to choose k Different members of a group of n different elements ( also known as the number of combinations) is calculated by the following formula: (n  k) = N! / (K! * (N_K)!)
 
+For example, there are 2598960 ways to withdraw 5 cards out of a standard deck of 52 cards.
 
+Your task is to write a program that calculate N! / (K! * (N_K)!) for given n and k (1<k<n<100).
+
+Try to use only two loops.
+
+### Video Problem 8. Catalan Numbers
+
+![{\displaystyle C_{n}={\frac {1}{n+1}}{2n \choose n}={\frac {(2n)!}{(n+1)!\,n!}}=\prod \limits _{k=2}^{n}{\frac {n+k}{k}}\qquad {\text{for }}n\geq 0.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/58374aa2b2e2c016a5b313e2bbd59940a2e1a5f9)
+
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noncrossing_partitions_5.svg/220px-Noncrossing_partitions_5.svg.png)
 
 ### Problem 7. Matrix of Numbers
 
