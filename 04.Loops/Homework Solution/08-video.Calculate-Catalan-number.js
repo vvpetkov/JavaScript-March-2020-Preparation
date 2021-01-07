@@ -1,33 +1,28 @@
 // Prep/Loops/Homeworks
 // 08. video
 
-const input = ["52", "5"];
+const input = ["0"];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
 let n = +gets();
 
-let f1 = BigInt(2n);
-let f2 = BigInt(n + 1);
-let f3 = BigInt(n);
+let f1 = BigInt(1);
+let f2 = BigInt(1);
+let f3 = BigInt(1);
 
-for (let i = 1; i < n; i++) {
+for (let i = 1; i <= 2 * n; i++) {
   f1 *= BigInt(i);
 
-  if (i < k) {
+  if (i <= n + 1) {
     f2 *= BigInt(i);
   }
 
-  if (i < n - k) {
+  if (i <= n) {
     f3 *= BigInt(i);
   }
 }
 
-f2 *= f3;
-f1 /= f2;
+let catalan = f1 / (f2 * f3);
 
-console.log(f1); // какъв тип данни е това
-
-console.log(typeof f1); // bigint тип данни
-
-print(Number(f1));
+print(Number(catalan));
