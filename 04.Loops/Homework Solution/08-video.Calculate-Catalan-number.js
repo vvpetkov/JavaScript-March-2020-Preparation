@@ -1,7 +1,7 @@
 // Prep/Loops/Homeworks
 // 08. video
 
-const input = ["0"];
+const input = ["5"];
 const print = this.print || console.log;
 const gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
