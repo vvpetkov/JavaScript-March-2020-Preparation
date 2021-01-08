@@ -11,6 +11,9 @@ const max = +gets();
 let range = max - min;
 let random = 0;
 
-for (let i = min; i <= max; i++) {
+for (let i = 0; i <= n; i++) {
   print(Math.floor(Math.random() * (range)) + min);
 }
+
+// Решението на Ники виж във видеото
+
