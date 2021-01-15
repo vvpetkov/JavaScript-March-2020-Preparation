@@ -5,24 +5,24 @@ const print = this.print || console.log;
 const str = gets();
 let digits = [];
 
-for (let i = 0; i < str.length; i++) {
-  const currentElement = +str[i];
+for (let i = 0; i < str.length; i += 1) {
+    const currentElement = +str[i];
 
-  if (!Number.isNaN(currentElement)) {
-    digits.push(currentElement);
-  }
+    if (!Number.isNaN(currentElement)) {
+        digits.push(currentElement);
+    }
 }
 
 while (digits.length > 1) {
-  let sum = 0;
+    let sum = 0;
 
-  for (let i = 0; i < digits.length; i++) {
-    const currentNumber = digits[i];
+    for (let i = 0; i < digits.length; i += 1) {
+        const currentNumber = digits[i];
 
-    sum += currentNumber;
-  }
+        sum += currentNumber;
+    }
 
-  digits = sum.toString().split('').map(Number);
+    digits = sum.toString().split('').map(Number);
 }
 
 print(digits[0]);
