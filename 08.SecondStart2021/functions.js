@@ -16,12 +16,29 @@ const printFullName = (firstName, lastName, born) => {
     console.log(firstName, lastName, `Born: ${born}`);
 };
 
-printFullName('Vlad', 'Drakula', 1430);
+printFullName('Vlad', 'Dracula', 1430);
 
 const getFullName = (firstName, lastName, born) => {
     return `${firstName} ${lastName}`;
 };
 
-const fullName = getFullName('Vlad', 'Drakula', 1430);
+const fullName = getFullName('Vlad', 'Dracula', 1430);
 
 console.log(fullName);
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const calculate = (numA, numB, operation) => {
+    return operation(numA, numB);
+};
+
+const operationTwoNumbers = (a, b) => {
+    return a + b;
+}; //* или sugar :
+//* const operationTwoNumbers = (a, b) => a + b;
+
+//console.log(`operationTwoNumbers = ${operationTwoNumbers(2, 3)}`);  // 5
+
+const sum = calculate(2, 3, operationTwoNumbers);
+
+console.log(sum); // 5
